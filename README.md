@@ -5,7 +5,8 @@ I trained a model using TensorFlow to detect the suit and number of Tarot cards 
 ## Dataset
 The standard modern tarot deck consists of 78 cards divided into two groups: the major arcana, which has 22 cards, also known as trumps, and the minor arcana, which has 56 cards.To create the preliminary dataset, I simply take a single picture of each card in a 78 card deck, like so:
 
-![an example of a playing card](notebook1.png)
+<img src="notebook1.png" alt="Your image title" width="250"/>
+
 
 I then perform data augmentation using various transformation functions later on.
 
@@ -18,9 +19,10 @@ I then perform data augmentation using various transformation functions later on
 ## Training and results
 During training, the training and validation accuracy both reached 99.9%. Let’s take a closer look at the loss and accuracy during the training process through the following plots.
 
-![an example of a playing card](notebook3.png)
-![an example of a playing card](notebook4.png)
 
+<img src="notebook3.png" alt="Your image title" width="50%"/><img src="notebook4.png" alt="Your image title" width="50%"/>
 Finally, I run the trained model on a sample of test set images. The plot below displays the sample image and the prediction of the model.
 
-![an example of a playing card](notebook5.png)
+<div style="  display: block;
+  width: 60%;
+  margin: auto;"><img src="notebook5.png"  alt="Your image title" width="400"/> </div>
